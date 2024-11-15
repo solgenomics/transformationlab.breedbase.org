@@ -1,0 +1,14 @@
+<li class="dropdown"><a class="menu_click_dropdown dropdown-toggle" data-toggle="dropdown">Search</a>
+  <ul class="dropdown-menu">
+    <li><a href="/breeders/search">Wizard</a></li>
+    <li><a href="/search/bulk">Bulk Search</a></li>
+    <li><a href="/search/stocks">Accessions and Plots</a></li>
+   <li><a href="/search/vectors">Vector Constructs</a></li>	
+    <li><a href="/search/organisms">Organisms</a></li>
+    <li><a href="/search/trials">Field Trials</a></li>
+
+    <li role="separator" class="divider"></li>
+    <li><a href="/search/images">Images</a></li>
+    <li><a href="/search/people">People</a></li>
+  </ul>
+</li>

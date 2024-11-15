@@ -3,9 +3,9 @@ version: "3.7"
 services:
   breedbase:
     image: breedbase/breedbase:latest
-    container_name: breedbase_web
+    container_name: breedbase_web_transformationlab
     ports:
-      - 8080:8080
+      - 8912:8080
     volumes:
       - type: bind
         source: /export/prod/public_transformationlab
@@ -28,6 +28,9 @@ services:
       - type: bind
         source: bash_history
         target: /home/production/.bash_history
+      - type: bind
+        source: mason
+        target: /home/production/cxgn/transformationlab/mason
 
 
 
